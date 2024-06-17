@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Figtree;
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+body {
+  background-color: #f4d04e;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Figtree;
+}
+.main-container {
+  background-color: #fff;
+  width: 384px;
+  height: 522px;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid #111;
+  box-shadow: 10px 10px 1px 1px #111;
+  margin: 24px;
+}
+.main-container .blog-image {
+}
+
+.main-container .blog-image img {
+  width: 100%;
+  height: 100%;
+}
+.main-container .blog {
+    width: 100%;
+  margin-top: 24px;
+}
+.main-container .blog .blog-category {
+  width: 82px;
+  height: 29px;
+  padding: 4px 12px 4px 12px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+  border-radius: 4px;
+background: rgb(244, 208, 78);
+    font-weight: 800;
+    text-align: center;
+    line-height: 29px;
+    font-size: 14px;
+}
+
+.main-container .blog .publish-date {
+    font-weight: 500;
+    color: rgb(17, 17, 17);
+}
+
+.main-container .blog .blog-title {
+    margin: 12px 0;
+    /* Heading */
+    color: rgb(17, 17, 17);
+    font-family: Figtree;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.main-container .blog .blog-summary {
+    /* Body M */
+color: rgb(127, 127, 127);
+font-family: Figtree;
+font-size: 16px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0;
+text-align: left;
+}
+
+.blog-author {
+    width: 129px;
+    height: 32px;
+
+/* 自动布局 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.blog-author img {
+    height: 100%;
+}
+
+.blog-author span {
+    /* Body S (Bold) */
+color: rgb(17, 17, 17);
+font-family: Figtree;
+font-size: 14px;
+font-weight: 800;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+margin: 0 6px;
+}
