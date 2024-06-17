@@ -56,17 +56,20 @@ background: rgb(244, 208, 78);
 .main-container .blog .blog-title {
     margin: 12px 0;
     /* Heading */
-    color: rgb(17, 17, 17);
     font-family: Figtree;
     font-size: 24px;
     font-weight: 800;
     line-height: 150%;
     letter-spacing: 0;
     text-align: left;
+}
+.blog-title a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
     cursor: pointer;
 }
 
-.blog-title:hover {
+.blog-title a:hover {
     color: rgb(244, 208, 78)
 }
 
